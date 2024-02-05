@@ -1,0 +1,12 @@
+icode=input("Enter the item code:")
+iname=input("Enter the item name:")
+qty=int(input("Enter the quantity:"))
+up=int(input("Enter the unit price:"))
+amt=qty*up
+print("="*10)
+print("Item code:",icode)
+print("Item name:",iname)
+print("Quantity:",qty)
+print("Unit price:",up)
+print("Amount:",amt)
+print("="*10)
